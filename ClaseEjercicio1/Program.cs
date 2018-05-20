@@ -27,8 +27,15 @@ namespace ClaseEjercicio1
             puerta2.Abrir();
             puerta2.MostrarEstado();
 
+            Console.WriteLine("");
 
-
+            Porton porton = new Porton();
+            porton.Color = 23;
+            porton.Ancho = 150;
+            porton.Alto = 230;
+            porton.Bloqueado = true;
+            porton.Bloquear();
+            porton.MostrarEstado();
 
 
             Console.ReadKey();

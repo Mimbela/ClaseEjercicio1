@@ -30,8 +30,7 @@ namespace ClaseEjercicio1
             Console.WriteLine("Alto {0}", Alto);
             Console.WriteLine("Color{0}",Color);
             Console.WriteLine("Abierta {0}",Abierta);
-
-
         }
+        
     }
 }
