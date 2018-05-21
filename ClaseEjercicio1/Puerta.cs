@@ -31,6 +31,22 @@ namespace ClaseEjercicio1
             Console.WriteLine("Color{0}",Color);
             Console.WriteLine("Abierta {0}",Abierta);
         }
+
+        //creamos un constructor de la clase Puerta
+        public Puerta()
+        {
+            Ancho = 100;
+            Alto = 200;
+            Color = 30;
+            Abierta = false;
+
+        }
+        //como hay dos constructores a esto se le llama sobrecarga
+        public Puerta (int a, int al)
+        {
+            Ancho = a;
+            Alto = al;
+        }
         
     }
 }
